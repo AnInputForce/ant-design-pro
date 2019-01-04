@@ -1,3 +1,5 @@
+import jewelbox from './tools.router.config'
+
 export default [
   // user
   {
@@ -41,7 +43,8 @@ export default [
           },
         ],
       },
-      // forms
+      // 工具集：rap2code...
+      ...jewelbox,
       {
         path: '/form',
         icon: 'form',
